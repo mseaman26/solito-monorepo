@@ -34,7 +34,7 @@ export function HomeScreen() {
       <View sx={{ height: 32 }} />
       <Row>
         <TextLink
-          href="/user/fernando"
+          href="/user/derp"
           textProps={{
             style: sx({ fontSize: 16, fontWeight: 'bold', color: 'blue' }),
           }}
@@ -43,7 +43,7 @@ export function HomeScreen() {
         </TextLink>
         <View sx={{ width: 32 }} />
         <MotiLink
-          href="/user/fernando"
+          href="/user/derp"
           animate={({ hovered, pressed }) => {
             'worklet'
 
